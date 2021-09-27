@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Red Hat Display', sans-serif;
+    background: url("/Users/christopherross/Documents/order-summary-component-project/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 96%);
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.mainm {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wblock {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 37.5rem;
+    width: 28.125rem;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* background-color: white; */
+}
+
+.cwb {
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.annplan {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 45px;
+}
+
+.moreflex {
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    width: 24rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pbutton {
+    height: 3rem;
+    width: 24rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 14px 5px hsla(224, 23%, 55%, .60);
+    font-weight: bold;
+}
+
+.pbutton:hover {
+    transition: opacity 300ms linear;
+    opacity: 0.6;
+}
+
+.cbutton {
+    height: 3rem;
+    width: 24rem;
+    background-color: white;
+    color: hsl(245, 75%, 52%);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.ap {
+    font-weight: bold;
+}
+
+.change {
+    font-weight: bold;
+}
+
+.attribution {
+    position: relative;
+    top: 60px;
+}
