@@ -102,6 +102,11 @@ p {
     font-weight: bold;
 }
 
+.cbutton:hover {
+    transition: color 300ms linear;
+    color: hsl(245, 95%, 22%);
+}
+
 .ap {
     font-weight: bold;
 }
